@@ -4,19 +4,31 @@ COMMON
 
 **********************/
 
-body{
+body {
     font-family: "monospace", sans-serif;
 }
 
-.font-primary{
+.font-primary {
     color: #00ABAE;
 }
 
-.title-icon{
+.title-icon {
     font-size: 20px;
     font-weight: bold;
 }
+p {
+   font-size: 14px; 
+}
 
+h2 {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black {
+    color: #000 !important;
+}
 /*******************
 
 ABOUT
@@ -31,12 +43,12 @@ ABOUT
 
 #about img {
     border-radius: 50%;
-    width: 120px;
+    width: 140px;
     margin-bottom: 10px;
 }
 
 #about .name {
-font-size: 19px;
+    font-size: 19px;
 }
 
 #about .vocation {
@@ -61,6 +73,29 @@ font-size: 19px;
     font-size: 30px;
 }
 
-#about .icons a{
-    color: #000
+#about .icons a {
+    color: #000;
+}
+
+/**********************
+
+PROJECTS
+
+***********************/
+
+#projects {
+    margin: 60px auto;
+    width: 80%;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+#projects .card img {
+    width: 100%;
+}
+
+#projects .card-title {
+    font-weight: bold;
 }
